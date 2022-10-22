@@ -1,0 +1,186 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -1,
+    "scrollLeft": -16,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "starwars",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "personagem",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "1",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "28b2c7cc-8704-4f2e-9fdd-ba9500dbf51c"
+          },
+          {
+            "name": "nome",
+            "comment": "'Darth Vader'",
+            "dataType": "VARCHAR(120)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 82.15806579589844,
+              "widthDataType": 90.02308654785156,
+              "widthDefault": 60
+            },
+            "id": "189949a9-fa9b-4d08-a73a-c9d8aeeb104c"
+          },
+          {
+            "name": "altura",
+            "comment": "Máximo: 99.99",
+            "dataType": "DECIMAL(4, 2)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 91.42707824707031,
+              "widthDataType": 87.78709411621094,
+              "widthDefault": 60
+            },
+            "id": "f5f43ec6-4350-4354-992b-382b12a84ffa"
+          },
+          {
+            "name": "destaque",
+            "comment": "0 (false) ou 1 (true)",
+            "dataType": "BOOLEAN",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 115.99711608886719,
+              "widthDataType": 62.98307800292969,
+              "widthDefault": 60
+            },
+            "id": "7551594b-41f0-4f02-8b8b-0ef26059c5a9"
+          },
+          {
+            "name": "nascimento",
+            "comment": "'1993-05-13'",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 73.22706604003906,
+              "widthComment": 75.71005249023438,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ce58059d-0a7c-40cd-90c2-b4196d610df4"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 94,
+          "top": 97,
+          "zIndex": 146,
+          "widthName": 79.59706115722656,
+          "widthComment": 60,
+          "color": "#00BCD4"
+        },
+        "visible": true,
+        "id": "04695632-b43c-430c-8a43-6894fcebc776"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": []
+  }
+}
