@@ -15,3 +15,7 @@ VALUES (5, 'Snoke', 2.10, 0, '2097-04-08');
 
 INSERT INTO personagem (id, nome, altura, destaque, nascimento)
 VALUES (5, 'Leia', 1.5, 1, '3093-08-11');
+
+-- example without specifying columns
+INSERT INTO personagem
+VALUES (6, 'Yoda', 1.1, 1, '2060-03-30')
