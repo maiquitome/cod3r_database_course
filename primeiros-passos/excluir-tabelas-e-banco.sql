@@ -1,0 +1,7 @@
+USE starwars;
+
+-- DDL - DATA DEFINITION LANGUAGE
+DROP TABLE IF EXISTS personagem;
+DROP TABLE planeta;
+
+DROP DATABASE starwars;
