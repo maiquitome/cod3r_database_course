@@ -166,7 +166,7 @@
           "active": false,
           "left": 94,
           "top": 97,
-          "zIndex": 8,
+          "zIndex": 1,
           "widthName": 79.59706115722656,
           "widthComment": 60,
           "color": "#00BCD4"
@@ -296,9 +296,9 @@
         ],
         "ui": {
           "active": true,
-          "left": 102,
-          "top": 438,
-          "zIndex": 47,
+          "left": 94,
+          "top": 369,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60,
           "color": "#FFD900"
