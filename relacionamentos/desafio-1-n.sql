@@ -1,0 +1,28 @@
+USE relacionamentos;
+
+DROP TABLE IF EXISTS pedido;
+DROP TABLE IF EXISTS cliente;
+
+CREATE TABLE IF NOT EXISTS cliente (
+  id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  nome VARCHAR(120) NOT NULL,
+  email VARCHAR(120) NOT NULL,
+  data_cadastro DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS pedido (
+  id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  id_cliente INT UNSIGNED,
+  data_pedido DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (id_cliente) REFERENCES cliente(id)
+);
+
+INSERT INTO cliente (nome, email)
+VALUES ('Maria', 'maria@email.com');
+
+SELECT * FROM cliente;
+
+INSERT INTO pedido (id_cliente)
+VALUES (1);
+
+SELECT * FROM pedido;
